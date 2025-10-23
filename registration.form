@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            border: 1px solid #000;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="tel"],
+        textarea,
+        select {
+            width: 60%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            height: 60px;
+        }
+
+        .buttons {
+            text-align: left;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 5px 15px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        hr {
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+    <hr>
+
+    <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter valid email address"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password"><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male"> Male
+        <input type="radio" id="female" name="gender" value="Female"> Female
+        <input type="radio" id="other" name="gender" value="Other"> Other<br>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option>-- Select Course --</option>
+            <option>B.Tech</option>
+            <option>B.Sc</option>
+            <option>B.Com</option>
+            <option>BCA</option>
+            <option>MCA</option>
+        </select><br>
+
+        <label for="contact">Contact No:</label>
+        <input type="tel" id="contact" name="contact" placeholder="Enter phone number"><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" placeholder="Enter your address"></textarea><br>
+
+        <div class="buttons">
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+
+    <hr>
+    <footer>
+        © 2025 Student Registration Portal
+    </footer>
+
+</body>
+</html>
