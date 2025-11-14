@@ -1,0 +1,58 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        text-align: left;
+    }
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    /* Block Example */
+    .block-menu a {
+        display: block;
+        background: #3498db;
+        color: white;
+        padding: 12px;
+        text-decoration: none;
+        margin-bottom: 4px;
+    }
+
+    /* Inline Example */
+    .inline-menu a {
+        display: inline;
+        background: #2ecc71;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        margin-right: 6px;
+    }
+
+    /* Inline-Block Example */
+    .inline-block-menu a {
+        display: inline-block;
+        background: #9b59b6;
+        color: white;
+        padding: 12px 20px;
+        margin-right: 8px;
+        text-decoration: none;
+    }
+
+    /* Float Example */
+    .float-menu a {
+        float: left;
+        background: #e67e22;
+        color: white;
+        padding: 12px 18px;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+
+    .clearfix {
+        clear: both;
+    }
