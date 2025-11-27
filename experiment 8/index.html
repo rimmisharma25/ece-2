@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Profile Cards</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        border: 2px solid black;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-color: #ffffff;
+    }
+
+    .card {
+        width: 260px;
+        height: 220px;
+        background: #ffffff;
+        border: 1.5px solid #f54a9a;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .circle {
+        width: 70px;
+        height: 70px;
+        background-color: #bfdf30;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card h3 {
+        margin: 5px 0;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .card p {
+        margin: 2px 0;
+        font-size: 14px;
+        color: #148caa;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+        <div class="circle">LC</div>
+        <h3>Lavish Chaudhary</h3>
+        <p>B.Tech - CSE</p>
+        <p>Roll No: 21CS1007</p>
+        <p>1st Year</p>
+    </div>
+
+    <div class="card">
+        <div class="circle">MY</div>
+        <h3>Manish Yadav</h3>
+        <p>B.Tech - IT</p>
+        <p>Roll No: 21IT1012</p>
+        <p>1st Year</p>
+    </div>
+
+    <div class="card">
+        <div class="circle">DM</div>
+        <h3>Deepika Mittal</h3>
+        <p>B.Tech - ECE</p>
+        <p>Roll No: 21EC1009</p>
+        <p>1st Year</p>
+    </div>
+
+    <div class="card">
+        <div class="circle">RS</div>
+        <h3>Raj Singh</h3>
+        <p>B.tech - CSE</p>
+        <p>Roll NO:21CS2009</p>
+        <P>1st Year</P>
+
+
+
+</div>
+
+</body>
+</html>
