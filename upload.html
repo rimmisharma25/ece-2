@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>File Upload Form</title>
+</head>
+<body>
+
+  <header>
+    <h1>Upload a File</h1>
+  </header>
+
+  <main>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <label for="userfile">Choose a file to upload:</label>
+      <br>
+      <input type="file" id="userfile" name="userfile" required>
+      <br><br>
+      <input type="submit" value="Upload">
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 My Website</p>
+  </footer>
+
+</body>
+</html>
