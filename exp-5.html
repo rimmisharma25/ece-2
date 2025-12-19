@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form action="" target="_blank" name="Biodata" method=""></form>
+    <fieldset>
+        <h2 align="center">Student Registration Form</h2>
+        <!-- Name -->
+         <label for="name">Full Name: </label>
+         <input type="text" id="name" name="name" placeholder="Enter your full name" required> <br><br>
+        <!-- Email -->
+         <label for="email">Email: </label>
+         <input type="email" id="email" name="email" placeholder="Enter valid email address" required> <br><br>
+        <!-- Password -->
+         <label for="password">Password: </label>
+         <input type="password" id="password" name="password" placeholder="Enter password"> <br><br>
+        <!-- Gender -->
+         <label for="gender">Gender: </label>
+         <input type="radio" id="gender" name="gender"> Male
+         <input type="radio" id="gender" name="gender"> Female
+         <input type="radio" id="gender" name="gender"> Other <br><br>
+        <!-- Course -->
+         <label for="course">Course: </label>
+         <select id="course" name="course">
+             <option>-- Select Course --</option>
+             <option>B.Tech</option>
+             <option>B.Sc</option>
+             <option>BCA</option>
+             <option>B.Com</option>
+         </select> <br><br>
+        <!--Phone-->
+         <label for="phone">Contact No: </label>
+         <input type="tel" id="tel" name="tel" placeholder="Enter phone number" maxlength="10" required> <br><br>
+        <!-- Address -->
+         <label for="address">Address: </label><br>
+         <textarea id="address" name="address" placeholder="Enter your address" rows="5" cols="50"></textarea> <br><br>
+        <!--Submission-->
+         <input type="submit" value="Register">
+         <input type="reset" value="Clear"> <br><br>
+    </fieldset>
+    <p align="center">&copy; 2025 Student Registration Portal</p>
+</body>
+</html>
