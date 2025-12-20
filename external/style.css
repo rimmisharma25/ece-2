@@ -1,0 +1,12 @@
+h1 {
+    color: darkorange;
+    text-align: center;
+}
+p {
+    color: teal;
+    font-size: 18px;
+}
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
